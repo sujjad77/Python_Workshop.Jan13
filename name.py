@@ -1,0 +1,10 @@
+first_name=input("Enter your first name : ")
+last_name=input("Enter your last name : ")
+print("Hello! " + first_name  + last_name)
+print("Hello! {} {}".format(first_name, last_name))
+print("Hello! {0} {1}".format(first_name, last_name))
+print("Hello! {1} {0}".format(last_name, first_name))
+print("{} {} {}".format("Hello!",first_name, last_name))
+print("Hello! {first_key} {last_key}".format(first_key=first_name, last_key=last_name))
+print(f"Hello! {first_name} {last_name}")
+
